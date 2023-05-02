@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(0, 0, 0);
+}
+
+.text {
+    background: url(Image/city.png);
+    background-size: cover;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transform: translatey(-50%);
+
+}
+
+h1 {
+    /* background-color: black; */
+    font-size: 14rem;
+    margin-top: 50vh;
+    padding: 14px;
+    font-weight: 800px;
+    font-family: sans-serif;
+    text-align: center;
+    
+    
+}
+
+
+/* .mask {
+display: flex;
+justify-content: center;
+align-items: center;
+
+mask-image: url();
+mask-repeat: no-repeat;
+} */
+
+/* img {
+    margin: 25px;
+    width: 800px;
+    height: 700px;
+    display: block;
+} */
